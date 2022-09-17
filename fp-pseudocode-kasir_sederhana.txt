@@ -1,0 +1,21 @@
+Algoritma sistem_kasir_sederhana
+
+Deklarasi 
+    odeBarang, jumlah : integer
+    harga, total, bayar, uangBayar : double
+
+Deskripsi
+    Read (kodeBarang, jumlah, harga)
+    Write (total)
+    If(total>=250.000) then
+        diskon <- 10% total
+    Else
+        total = total
+    Endif
+
+    Write (Masukkan Pembayaran)
+    While (bayar < total)
+    Do (bayar = uangBayar - total)
+    End While
+
+    Write (Cetak Kembalian)
